@@ -2,3 +2,4 @@
 venv/
 
 !/database_files/tg_datausers.db
+/database_files/tg_datausers.db

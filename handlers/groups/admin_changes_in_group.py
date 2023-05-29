@@ -4,10 +4,8 @@ from aiogram.filters.chat_member_updated import \
     RESTRICTED, MEMBER, ADMINISTRATOR, CREATOR
 from aiogram.types import ChatMemberUpdated
 
-from config_reader import config
 
 router = Router()
-router.chat_member.filter(F.chat.id == config.main_chat_id)
 
 
 @router.chat_member(

@@ -1,5 +1,10 @@
 .venv/
 venv/
 
-!/database_files/tg_datausers.db
-/database_files/tg_datausers.db
+.idea/
+__pycache__/
+
+*.log
+/.env
+my-id-bot.service
+docker-compose.yml
